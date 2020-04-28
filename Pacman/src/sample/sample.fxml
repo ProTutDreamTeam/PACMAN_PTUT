@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="rootPane" prefHeight="392.0" prefWidth="564.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerMenu">
+         <children>
+            <Button layoutX="236.0" layoutY="108.0" mnemonicParsing="false" onAction="#showStart" prefHeight="36.0" prefWidth="91.0" text="Start" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="236.0" layoutY="160.0" mnemonicParsing="false" onAction="#showLevels" prefHeight="36.0" prefWidth="91.0" text="Levels">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="236.0" layoutY="213.0" mnemonicParsing="false" onAction="#showMulti" prefHeight="36.0" prefWidth="91.0" text="Multi">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="236.0" layoutY="262.0" mnemonicParsing="false" onAction="#showCredits" prefHeight="36.0" prefWidth="91.0" text="Credits">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Button>
+            <Circle fill="#fff93d" layoutX="147.0" layoutY="190.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#fff93d" layoutX="190.0" layoutY="190.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#fff93d" layoutX="369.0" layoutY="190.0" radius="14.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#fff93d" layoutX="416.0" layoutY="190.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#fff93d" layoutX="451.0" layoutY="190.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#fff93d" layoutX="488.0" layoutY="190.0" radius="14.0" stroke="BLACK" strokeType="INSIDE" />
+            <CheckBox id="mute" layoutX="236.0" layoutY="325.0" mnemonicParsing="false" onAction="#musique" prefHeight="36.0" prefWidth="229.0" text="Musique " textFill="#1b1b15" />
+            <BorderPane layoutX="-1.0" layoutY="-2.0" prefHeight="25.0" prefWidth="562.0">
+               <left>
+                  <MenuBar prefHeight="25.0" prefWidth="564.0" BorderPane.alignment="CENTER">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="Pacman">
+                        <items>
+                           <MenuItem mnemonicParsing="false" text="Redémarrer le jeu" onAction="#restartGame" />
+                           <MenuItem mnemonicParsing="false" text="Quitter le jeu" onAction="#quitGame"/>
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Options">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="Paramètres de jeu" />
+                           <MenuItem mnemonicParsing="false" text="Paramètres audio" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Aide">
+                        <items>
+                          <MenuItem mnemonicParsing="false" text="A propos..." />
+                           <MenuItem mnemonicParsing="false" text="Langages" />
+                        </items>
+                      </Menu>
+                    </menus>
+                  </MenuBar>
+               </left>
+            </BorderPane>
+             <ImageView fitHeight="168.0" fitWidth="319.0" layoutX="133.0" layoutY="-11.0" preserveRatio="true">
+                 <image>
+                     <Image url="https://www.logolynx.com/images/logolynx/81/812485da0e4d9405b6e113bf6db8a235.png" />
+                 </image>
+             </ImageView>
+      <Arc fill="#fff93d" layoutX="75.0" layoutY="189.0" length="270.0" radiusX="75.0" radiusY="69.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+         </children>
+   </Pane>
