@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane fx:id="paneNiveauUn" onKeyPressed="#monte" prefHeight="479.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.levels.NiveauUn">
+   <children>
+      <Button fx:id="btnRetourMenu" layoutX="565.0" layoutY="440.0" mnemonicParsing="false" onAction="#retourMenu" text="Retour Menu" />
+      <Circle fx:id="pacman" fill="DODGERBLUE" layoutX="320.0" layoutY="168.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
