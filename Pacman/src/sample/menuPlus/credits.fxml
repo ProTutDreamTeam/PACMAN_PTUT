@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane fx:id="paneCredits" prefHeight="479.0" prefWidth="665.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.menuPlus.Credits">
+    <children>
+        <Text fill="YELLOW" layoutX="229.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fabriquer par moi">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fill="YELLOW" layoutX="224.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Developpé par moi">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Button fx:id="btnRetourMenuCredits" layoutX="565.0" layoutY="440.0" mnemonicParsing="false" onAction="#retourMenu" text="Retour Menu" />
+    </children>
+</AnchorPane>
