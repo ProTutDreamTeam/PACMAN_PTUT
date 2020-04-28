@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="252.0" layoutY="180.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="112.0" style="-fx-background-color: BLACK;" text="Start" textFill="#ffea00" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="levels" layoutX="256.0" layoutY="225.0" mnemonicParsing="false" onAction="#level" prefHeight="45.0" prefWidth="105.0" style="-fx-background-color: BLACK;" text="Levels" textFill="#ffea00" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button layoutX="251.0" layoutY="315.0" mnemonicParsing="false" style="-fx-background-color: BLACK;" text="Credits" textFill="#ffea00" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Label layoutX="203.0" layoutY="16.0" prefHeight="53.0" prefWidth="210.0" text="PAC-MAN" textFill="#ffea00">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="99.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/Screenshot%20at%20Mar%2031%2014-25-11.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="102.0" fitWidth="82.0" layoutX="518.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/Screenshot%20at%20Mar%2031%2014-25-54.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="82.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/Screenshot%20at%20Mar%2031%2014-25-34.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="107.0" fitWidth="82.0" layoutX="518.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/Screenshot%20at%20Mar%2031%2014-24-45.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="255.0" layoutY="271.0" mnemonicParsing="false" style="-fx-background-color: BLACK;" text="Button" textFill="#ffea00" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
