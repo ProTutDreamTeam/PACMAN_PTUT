@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="591.0" prefWidth="764.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CREDIT">
+   <children>
+      <Pane prefHeight="591.0" prefWidth="764.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="591.0" stroke="BLACK" strokeType="INSIDE" width="764.0" />
+            <ImageView fitHeight="134.0" fitWidth="764.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/Level.png" />
+               </image>
+            </ImageView>
+            <Hyperlink layoutX="318.0" layoutY="262.0" text="SKIN" textFill="#edff2b">
+               <font>
+                  <Font size="34.0" />
+               </font></Hyperlink>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

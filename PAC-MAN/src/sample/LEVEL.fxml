@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="594.0" prefWidth="793.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LEVEL">
+   <children>
+      <Pane layoutX="-1.0" prefHeight="599.0" prefWidth="801.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="599.0" stroke="BLACK" strokeType="INSIDE" width="802.0" />
+            <ImageView fitHeight="92.0" fitWidth="801.0" layoutX="7.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/Level.png" />
+               </image>
+            </ImageView>
+            <Hyperlink layoutX="365.0" layoutY="218.0" text="1-9" textFill="#edff2b">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink layoutX="349.0" layoutY="300.0" text="10-19" textFill="#edff2b">
+               <font>
+                  <Font size="29.0" />
+               </font></Hyperlink>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

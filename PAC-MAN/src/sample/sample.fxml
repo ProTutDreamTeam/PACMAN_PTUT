@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="570.0" layoutX="-7.0" layoutY="1.0" stroke="BLACK" strokeType="OUTSIDE" width="832.0" />
+      <Circle fill="#fffb1f" layoutX="133.0" layoutY="178.0" radius="14.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#fffb1f" layoutX="86.0" layoutY="178.0" radius="9.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#fffb1f" layoutX="175.0" layoutY="178.0" radius="9.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#fffb1f" layoutX="336.0" layoutY="179.0" radius="9.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#fffb1f" layoutX="211.0" layoutY="178.0" radius="9.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#fffb1f" layoutX="248.0" layoutY="179.0" radius="9.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#fffb1f" layoutX="297.0" layoutY="179.0" radius="14.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#fffb1f" layoutX="374.0" layoutY="179.0" radius="9.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#fffb1f" layoutX="455.0" layoutY="179.0" radius="14.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#fffb1f" layoutX="409.0" layoutY="178.0" radius="9.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#fcfc08" layoutX="583.0" layoutY="180.0" radius="9.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#fffb1f" layoutX="543.0" layoutY="180.0" radius="9.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#fffb1f" layoutX="503.0" layoutY="180.0" radius="9.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#fcfc08" layoutX="632.0" layoutY="180.0" radius="14.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Arc fill="#fcfc08" layoutX="742.0" layoutY="178.0" length="270.0" nodeOrientation="RIGHT_TO_LEFT" radiusX="51.0" radiusY="43.0" startAngle="45.0" stroke="TRANSPARENT" strokeType="INSIDE" type="ROUND" />
+      <Arc layoutX="721.0" layoutY="151.0" length="270.0" radiusX="5.0" radiusY="5.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND">
+         <cursor>
+            <Cursor fx:constant="SE_RESIZE" />
+         </cursor>
+      </Arc>
+      <ImageView fitHeight="270.0" fitWidth="844.0" layoutX="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/pac%20man.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="87.0" layoutX="14.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/fantome.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="95.0" layoutX="699.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/fantome%20rose.png" />
+         </image>
+      </ImageView>
+      <Hyperlink accessibleRole="BUTTON" layoutX="306.0" layoutY="261.0" onAction="Pane.getChildren().clear();" prefHeight="94.0" prefWidth="173.0" text="START" textAlignment="CENTER" textFill="#edff2b">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="313.0" layoutY="322.0" onAction="Pane.getChildren().clear();" text="LEVEL" textFill="#edff2b">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="297.0" layoutY="461.0" onAction="Pane.getChildren().clear();" text="CREDIT" textFill="#edff2b">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</Pane>
