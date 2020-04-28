@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="MenuPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="771.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerMenu">
+   <children>
+      <Label layoutX="312.0" layoutY="46.0" text="PacMan" textAlignment="CENTER" textFill="#fff70c" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Pixel" size="40.0" />
+         </font>
+      </Label>
+      <Button id="Start" fx:id="start" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="222.0" onAction="#pressStart" prefHeight="50.0" prefWidth="134.0" style="-fx-background-color: WITHE;" text="Start" textAlignment="CENTER" textFill="#fff70c">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </Button>
+      <Button id="Level" fx:id="level" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="272.0" onAction="#pressLevel" prefHeight="50.0" prefWidth="134.0" style="-fx-background-color: WITHE;" text="Level" textAlignment="CENTER" textFill="#fff70c">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </Button>
+      <Button id="Multi" fx:id="multi" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="322.0" onAction="#pressMulti" prefHeight="50.0" prefWidth="134.0" style="-fx-background-color: WITHE;" text="Multi" textAlignment="CENTER" textFill="#fff70c">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button id="Credit" fx:id="credit" alignment="CENTER" contentDisplay="CENTER" layoutX="318.0" layoutY="372.0" onAction="#pressCredit" prefHeight="50.0" prefWidth="134.0" style="-fx-background-color: WITH;" text="Credit" textAlignment="CENTER" textFill="#fff70c">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </Button>
+      <CheckBox id="mute" fx:id="mute" layoutX="3.0" layoutY="457.0" mnemonicParsing="false" onAction="#Mute" text="Mute" textFill="#fff70c" />
+      <Slider layoutX="59.0" layoutY="458.0" />
+      <ImageView fitHeight="78.0" fitWidth="123.0" layoutX="660.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/image/bleu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="123.0" layoutX="660.0" layoutY="358.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/image/rouge.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="123.0" layoutX="3.0" layoutY="7.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/image/rose.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="123.0" layoutX="4.0" layoutY="358.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assets/image/orange.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

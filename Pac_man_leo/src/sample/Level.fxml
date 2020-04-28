@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="LevelPane" prefHeight="479.0" prefWidth="771.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerLevel">
+   <children>
+      <Label layoutX="330.0" layoutY="14.0" text="Level" textAlignment="CENTER" textFill="#fffb00">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutY="82.0" mnemonicParsing="false" onAction="#pressMenu" prefHeight="103.0" prefWidth="114.0" style="-fx-background-color: WITHE;">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="95.0" fitWidth="154.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/image/fleche.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="133.0" layoutY="82.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="108.0" style="-fx-background-color: withe;" text="1" textFill="#fffb00">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button layoutX="255.0" layoutY="82.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="108.0" style="-fx-background-color: withe;" text="2" textFill="#fffb00">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button layoutX="388.0" layoutY="82.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="108.0" style="-fx-background-color: withe;" text="3" textFill="#fffb00">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button layoutX="517.0" layoutY="82.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="108.0" style="-fx-background-color: withe;" text="4" textFill="#fffb00">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button layoutX="625.0" layoutY="82.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="108.0" style="-fx-background-color: withe;" text="5" textFill="#fffb00">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button layoutX="13.0" layoutY="204.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="108.0" style="-fx-background-color: withe;" text="6" textFill="#fffb00">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button layoutX="133.0" layoutY="204.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="108.0" style="-fx-background-color: withe;" text="7" textFill="#fffb00">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button layoutX="276.0" layoutY="204.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="108.0" style="-fx-background-color: withe;" text="8" textFill="#fffb00">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button layoutX="388.0" layoutY="204.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="108.0" style="-fx-background-color: withe;" text="9" textFill="#fffb00">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button layoutX="517.0" layoutY="204.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="108.0" style="-fx-background-color: withe;" text="10" textFill="#fffb00">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button layoutX="625.0" layoutY="204.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="108.0" style="-fx-background-color: withe;" text="11" textFill="#fffb00">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button layoutX="13.0" layoutY="330.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="108.0" style="-fx-background-color: withe;" text="12" textFill="#fffb00">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button layoutX="133.0" layoutY="330.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="108.0" style="-fx-background-color: withe;" text="13" textFill="#fffb00">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button layoutX="276.0" layoutY="330.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="108.0" style="-fx-background-color: withe;" text="14" textFill="#fffb00">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button layoutX="388.0" layoutY="330.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="108.0" style="-fx-background-color: withe;" text="15" textFill="#fffb00">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button layoutX="517.0" layoutY="330.0" mnemonicParsing="false" prefHeight="103.0" prefWidth="108.0" style="-fx-background-color: withe;" text="16" textFill="#fffb00">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="612.0" layoutY="330.0" mnemonicParsing="false" onAction="#pressMenu" prefHeight="103.0" prefWidth="123.0" style="-fx-background-color: WITHE;">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="95.0" fitWidth="154.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assets/image/fleche.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</Pane>
