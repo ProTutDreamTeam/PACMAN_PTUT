@@ -11,7 +11,7 @@
          <image>
             <Image url="@../assets/images/fond.png" />
          </image></ImageView>
-        <Button layoutX="302.0" layoutY="220.0" mnemonicParsing="false" onAction="#pressStart" style="-fx-background-color: WITHE;" text="Start" textFill="#fff700">
+        <Button layoutX="302.0" layoutY="220.0" mnemonicParsing="false" onAction="#pressStart" text="Start" textFill="#fff700">
             <font>
                 <Font size="18.0" />
             </font></Button>
