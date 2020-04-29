@@ -5,7 +5,6 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.Pane;
-import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 
 import java.io.IOException;
@@ -17,10 +16,10 @@ public class Controller {
     @FXML
     private Text textMenuPacman;
 
-    @FXML
+    /*@FXML
     public void initialize() {
         textMenuPacman.setFont(Font.loadFont(getClass().getResourceAsStream("fonts/pac-font.ttf"),35));
-    }
+    }*/
 
     @FXML
     public void pressStart(ActionEvent event) throws Exception {
