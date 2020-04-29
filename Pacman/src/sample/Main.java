@@ -16,7 +16,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Pacman");
-        primaryStage.setScene(new Scene(root, 665.0, 479.0));
+        primaryStage.setScene(new Scene(root));
         primaryStage.show();
 
         String path = Main.class.getResource("/son/sonMenuS.mp3").toString();
