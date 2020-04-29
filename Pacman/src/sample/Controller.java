@@ -18,6 +18,11 @@ public class Controller {
     private Text textMenuPacman;
 
     @FXML
+    public void initialize() {
+        textMenuPacman.setFont(Font.loadFont(getClass().getResourceAsStream("fonts/pac-font.ttf"),35));
+    }
+
+    @FXML
     public void pressStart(ActionEvent event) throws Exception {
         System.out.println("Marche pas car il n y a pas");
         /*Pane pane = FXMLLoader.load(getClass().getResource("levels/niveauUn.fxml"));
