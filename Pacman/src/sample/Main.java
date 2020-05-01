@@ -7,10 +7,12 @@ import javafx.scene.Scene;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.stage.Stage;
+import sample.levels.LevelUn;
 
 public class Main extends Application {
 
     public static MediaPlayer mp;
+    public static Pacman pac1 = new Pacman();
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -25,7 +27,7 @@ public class Main extends Application {
         mp.setCycleCount(MediaPlayer.INDEFINITE);
         mp.play();
 
-        //NiveauUn.haut="A";
+        LevelUn.haut="A";
 
         System.out.println("Playing...");
     }

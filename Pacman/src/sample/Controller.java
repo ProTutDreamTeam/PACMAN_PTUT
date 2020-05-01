@@ -8,8 +8,6 @@ import javafx.scene.layout.Pane;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 
-import java.io.IOException;
-
 public class Controller {
 
     @FXML
@@ -24,9 +22,11 @@ public class Controller {
 
     @FXML
     public void pressStart(ActionEvent event) throws Exception {
-        System.out.println("Marche pas car il n y a pas");
-        /*Pane pane = FXMLLoader.load(getClass().getResource("levels/niveauUn.fxml"));
-        paneMenu.getChildren().setAll(pane);*/
+        System.out.println("Level 1");
+        Main.pac1.x=0;
+        Main.pac1.y=0;
+        Pane pane = FXMLLoader.load(getClass().getResource("levels/levelUn.fxml"));
+        paneMenu.getChildren().setAll(pane);
     }
 
     @FXML
@@ -51,7 +51,7 @@ public class Controller {
     }
 
     @FXML
-    public void quitGame(ActionEvent event) throws IOException {
+    public void quitGame(ActionEvent event) {
         Platform.exit();
         System.exit(0);
     }
