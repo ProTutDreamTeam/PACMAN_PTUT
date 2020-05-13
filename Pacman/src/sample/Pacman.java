@@ -25,5 +25,4 @@ public class Pacman {
             pacman.setTranslateY(y);
         }
     }
-
 }

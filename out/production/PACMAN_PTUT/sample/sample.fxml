@@ -11,20 +11,20 @@
          <image>
             <Image url="@../assets/images/fond.png" />
          </image></ImageView>
-        <Button layoutX="302.0" layoutY="220.0" mnemonicParsing="false" onAction="#pressStart" text="Start" textFill="#fff700">
+        <Button layoutX="302.0" layoutY="220.0" mnemonicParsing="false" onAction="#pressStart" style="-fx-background-color: 0;" text="Start" textFill="#fff700">
             <font>
                 <Font size="18.0" />
             </font></Button>
-        <Button layoutX="297.0" layoutY="280.0" mnemonicParsing="false" onAction="#pressLevels" text="Levels">
+        <Button layoutX="297.0" layoutY="280.0" mnemonicParsing="false" onAction="#pressLevels" style="-fx-background-color: 0;" text="Levels" textFill="#fff700">
             <font>
                 <Font size="18.0" />
             </font></Button>
-        <Button layoutX="300.0" layoutY="340.0" mnemonicParsing="false" text="Multi">
+        <Button layoutX="300.0" layoutY="340.0" mnemonicParsing="false" style="-fx-background-color: 0;" text="Multi" textFill="#fff700">
             <font>
                 <Font size="18.0" />
             </font>
         </Button>
-        <Button layoutX="297.0" layoutY="400.0" mnemonicParsing="false" onAction="#pressCredits" text="Credit">
+        <Button layoutX="297.0" layoutY="400.0" mnemonicParsing="false" onAction="#pressCredits" style="-fx-background-color: 0;" text="Credit" textFill="#fff700">
             <font>
                 <Font size="18.0" />
             </font>
