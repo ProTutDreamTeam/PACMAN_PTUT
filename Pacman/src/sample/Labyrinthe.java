@@ -9,7 +9,7 @@ public class Labyrinthe {
     public static void level(){
         ArrayList<ArrayList<LegendeLabyrinthe>> grid = new ArrayList<>();
         try {
-            File level = new File("C:\\Users\\leogi\\Desktop\\PACMAN_PTUT\\Pacman\\src\\sample\\level1");
+            File level = new File("level1");
             Scanner l = new Scanner(level);
             while (l.hasNextLine()) {
                 String data = l.nextLine();
