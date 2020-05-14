@@ -30,6 +30,7 @@ public class Entite {
     }
 
     public void translate(int dx, int dy){
-
+        this.x+=dx;
+        this.y+=dy;
     }
 }
