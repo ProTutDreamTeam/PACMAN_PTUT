@@ -6,16 +6,25 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Labyrinthe {
-    public static void level(){
-        ArrayList<ArrayList<LegendeLabyrinthe>> grid = new ArrayList<>();
+    private ArrayList<Entite> entites;
+    private  ArrayList<ArrayList<LegendeLabyrinthe>> grid;
+    public Labyrinthe(){
+        this.entites = new ArrayList<>();
+        this.grid = new ArrayList<>();
+    }
+
+    public void addEntite(Entite entite){
+        this.entites.add(entite);
+    }
+    public void readMaze(){
         try {
-            File level = new File("C:\\Users\\leogi\\Desktop\\PACMAN_PTUT\\Pacman\\src\\sample\\level1");
+            File level = new File("level1");
             Scanner l = new Scanner(level);
             while (l.hasNextLine()) {
                 String data = l.nextLine();
-                grid.add(new ArrayList<>());
+                this.grid.add(new ArrayList<>());
                 for(int c = 0; c < data.length(); c++) {
-                    grid.get(grid.size()-1).add(LegendeLabyrinthe.intToLegendeLabyrinthe(Integer.parseInt(data.charAt(c) + "")));
+                    this.grid.get(this.grid.size()-1).add(LegendeLabyrinthe.intToLegendeLabyrinthe(Integer.parseInt(data.charAt(c) + "")));
                 }
             }
             l.close();
@@ -23,5 +32,9 @@ public class Labyrinthe {
             System.out.println("An error occurred.");
             e.printStackTrace();
         }
+    }
+
+    public void checkColison(){
+
     }
 }
