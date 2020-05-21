@@ -12,7 +12,7 @@ import sample.levels.LevelUn;
 public class Main extends Application {
 
     public static MediaPlayer mp;
-    public static Pacman pac1 = new Pacman();
+    //public static Pacman pac1 = new Pacman();
 
     @Override
     public void start(Stage primaryStage) throws Exception{

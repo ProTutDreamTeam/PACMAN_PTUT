@@ -23,8 +23,6 @@ public class Controller {
     @FXML
     public void pressStart(ActionEvent event) throws Exception {
         System.out.println("Level 1");
-        Main.pac1.x=0;
-        Main.pac1.y=0;
         Pane pane = FXMLLoader.load(getClass().getResource("levels/levelUn.fxml"));
         paneMenu.getChildren().setAll(pane);
     }
