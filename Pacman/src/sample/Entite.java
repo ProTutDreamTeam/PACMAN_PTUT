@@ -2,6 +2,8 @@ package sample;
 
 public class Entite {
     private int x,y;
+    private Direction steerVector;
+    private Double speed;
 
     public Entite(int x,int y){
         this.x=x;
@@ -33,4 +35,22 @@ public class Entite {
         this.x+=dx;
         this.y+=dy;
     }
+
+    public Direction getSteerVector() {
+        return steerVector;
+    }
+
+    public void setSteerVector(Direction steerVector) {
+        this.steerVector = steerVector;
+    }
+
+    public Double getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(Double speed) {
+        this.speed = speed;
+    }
+
+
 }

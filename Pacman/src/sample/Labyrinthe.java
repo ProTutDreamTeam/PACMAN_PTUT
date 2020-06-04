@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class Labyrinthe {
     private ArrayList<Entite> entites;
     private  ArrayList<ArrayList<LegendeLabyrinthe>> grid;
+
     public Labyrinthe(){
         this.entites = new ArrayList<>();
         this.grid = new ArrayList<>();
@@ -16,6 +17,7 @@ public class Labyrinthe {
     public void addEntite(Entite entite){
         this.entites.add(entite);
     }
+
     public void readMaze(){
         try {
             File level = new File("level1");
@@ -35,6 +37,6 @@ public class Labyrinthe {
     }
 
     public void checkColison(){
-
+        
     }
 }
